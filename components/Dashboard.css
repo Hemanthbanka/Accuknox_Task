@@ -1,0 +1,82 @@
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-widget-button,
+.date-range-button {
+  padding: 10px 20px;
+  background-color: #F0F2F5;
+  border: 1px solid #D9D9D9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.dashboard-widget {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-widget.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #A5ACB5;
+}
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: #FFFFFF;
+  border-left: 1px solid #D9D9D9;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h4 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #F0F2F5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background: #E6F7FF;
+}
+
+.add-widget-confirm {
+  padding: 10px 20px;
+  background-color: #1890FF;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
